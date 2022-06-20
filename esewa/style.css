@@ -58,24 +58,34 @@ nav{
     position: sticky;
     top: 50px;
     padding: 10px;
+    display: flex;
     border-radius: 5px;
     align-self: flex-start;
     height: 60px;
+    justify-content: space-around;
 }
-.paying-box{
+.paying{
     display: flex;
+    
 }
 .paying-box img{
     display: flex;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
+    width: 17px;
+    height: 17px;
+    /* border-radius: 50%; */
     cursor: pointer;
-    padding: 1px 2%;
+    
 }
 .paying-box p{
-    font-size: small;
+    font-size: 8px;
 }
-.paying-box h6{
-    display: inline-flex;
+.clom-1{
+    display: flex;
 }
+.colm-2{
+    display: flex;
+}
+.colm-3{
+    display: flex;
+}
+
