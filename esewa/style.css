@@ -12,6 +12,7 @@ body{
 }
 nav{
     display: flex;
+    height: 30px;
     align-items: center;
     justify-content: space-between;
     background: #2DBB00;
@@ -41,4 +42,40 @@ nav{
     border-radius: 70%;
     cursor: pointer;
     padding: 10px 5%;
+}
+.paying{
+    display: flex;
+    height: 60px;
+    background-color: #2DBB00;
+    justify-content: space-between;
+    border-radius: 0 0 50% 50%/0 0 100% 100%;
+    padding: 13px 5%;
+    transform: scale(1);
+}
+.paying-box{
+    background: #FDFCFC;
+    flex-basis: 100%;
+    position: sticky;
+    top: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    align-self: flex-start;
+    height: 60px;
+}
+.paying-box{
+    display: flex;
+}
+.paying-box img{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 1px 2%;
+}
+.paying-box p{
+    font-size: small;
+}
+.paying-box h6{
+    display: inline-flex;
 }
