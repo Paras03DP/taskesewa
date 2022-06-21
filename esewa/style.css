@@ -13,6 +13,7 @@ body{
 nav{
     display: flex;
     height: 30px;
+    position: sticky;
     align-items: center;
     justify-content: space-between;
     background: #2DBB00;
@@ -220,6 +221,20 @@ hr{
     margin: 50px;
     margin-top: 33px;
     margin-left: -37px;
+}
+.view{
+    margin-top: 33px;
+    margin-left: 39%;
+}
+.view button{
+    width: 60px;
+    height: 20px;
+    font-family: 'poppins', sans-serif;
+    font-size: 10px;
+    color: #2DBB00;
+    background-color: #E9F7E6;
+    border: 0;
+    border-radius: 3px;
 }
 
 
