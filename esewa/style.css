@@ -315,14 +315,47 @@ hr{
     justify-content: space-between;
     padding: 13px 5%;
 }
+
 .catagorie{
     background: white;
     flex-basis: 100%;
-    /* position: sticky; */
     top: 50px;
     width: 70%;
     padding: 10px;
     border-radius: 5px;
     align-self: flex-start;
-    height: 100px;
+    height: 140px;
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.center img{
+    width: 50px;
+    margin: 20px;
+    border: 0.5px solid black;
+    margin-left: 10px;
+}
+.center ul li{
+    list-style: none;
+    display: inline;
+}
+
+.center p{
+    display: inline;
+    font-size: 8px;
+    margin: 50px;
+    margin-top: 48px;
+    margin-left: -60px;
+    align-items: center;
+    text-align: center;
+}
+
+.viewmore p{
+    margin-left: 140px;
+    font-size: 10px;
+    color: #2DBB00;
 }
